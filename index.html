@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="nav-logo">Your Name</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Hi, I'm [Your Name]</h1>
+            <p>Final Year BTech CSE Student | Aspiring Software Developer</p>
+            <a href="#projects" class="btn-primary">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>I am a final-year BTech student in Computer Science and Engineering with a passion for software development. I enjoy turning complex problems into simple, beautiful solutions. When I’m not coding, you’ll find me exploring new technologies or working on personal projects that sharpen my skills.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project Name 1</h3>
+                <p>Brief description of the project, highlighting what you built and what technologies you used.</p>
+                <a href="#" class="btn-secondary">View Project</a>
+            </div>
+            <!-- Add more projects similarly -->
+            <div class="project-card">
+                <h3>Project Name 2</h3>
+                <p>Brief description of the project, highlighting what you built and what technologies you used.</p>
+                <a href="#" class="btn-secondary">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <p>React</p>
+                <div class="skill-bar" style="width: 80%;"></div>
+            </div>
+            <div class="skill-item">
+                <p>JavaScript</p>
+                <div class="skill-bar" style="width: 70%;"></div>
+            </div>
+            <!-- Add more skills similarly -->
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Software Developer Intern</h3>
+            <p>Company Name | Duration</p>
+            <ul>
+                <li>Developed a feature-rich web application using React and Node.js.</li>
+                <li>Collaborated with a team of developers to improve performance and scalability.</li>
+            </ul>
+        </div>
+        <!-- Add more experiences similarly -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
